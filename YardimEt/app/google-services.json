@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "554481843165",
+    "firebase_url": "https://ihbarproje.firebaseio.com",
+    "project_id": "ihbarproje",
+    "storage_bucket": "ihbarproje.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554481843165:android:07d3e300035f3818",
+        "android_client_info": {
+          "package_name": "com.example.yasin.projeversion1_4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "554481843165-p6evhs267osf646lv56l3vsnl50b9fid.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yasin.projeversion1_4",
+            "certificate_hash": "1ba8adbc8f13fa21157df70da6599d1522badafa"
+          }
+        },
+        {
+          "client_id": "554481843165-rivsbr6vfc54uvdbvqrdbr2roob2d1q1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeygOjKPy7z7FdFt2W2_5t7__Tp9Xssj4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "554481843165-rivsbr6vfc54uvdbvqrdbr2roob2d1q1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

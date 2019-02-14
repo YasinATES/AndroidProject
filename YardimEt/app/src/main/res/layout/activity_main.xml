@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="#19691c"
+            android:text="Giriş Yap"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="0.571" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="336dp"
+            android:layout_height="410dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="16dp"
+            android:text="   \nİyi Günler,\n\nBu uygulama ülkemizde giderek artan şiddet, istismar, hırsızlık, taciz gibi suçları anında bildirmeniz için tasarlanmıştır.\n\nErkek ya da kadın, hayvan ya da insan farketmeksizin binlerce canlı her gün bu suçlara maruz kalıyor.Gelin Buna bir dur diyelim.\n\nTek yapmanız gereken panik butonuna basmak ve gelen suçlar listesinden birini seçip eşgallerin tanınması için birkaç açıklama yazıp göndermek.\n\nUnutmayın bu olaylardan herhangi biri bizim ve yakınlarımızın da başına gelebilir."
+            android:textColor="#FFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.368"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

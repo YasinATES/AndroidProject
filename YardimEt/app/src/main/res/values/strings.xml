@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Yardım Et</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="Suclar">
+        <item>Cinsel İstismar</item>
+        <item>Kadına Şiddet</item>
+        <item>Hırsızlık</item>
+        <item>Hayvanlara zarar</item>
+        <item>Kamu Malına Zarar</item>
+    </string-array>
+    <string name="title_activity_maps2">Map</string>
+    <string name="title_activity_admin_liste">Map</string>
+</resources>
